@@ -1,0 +1,35 @@
+{
+  "name": "ptcliniq",
+  "version": "1.0.0",
+  "description": "Physical Therapy EMR Suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrewDN/PTclinIQ.git"
+  },
+  "keywords": [
+    "Physical",
+    "Therapy",
+    "PT",
+    "EMR"
+  ],
+  "author": "Drew De Nooy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrewDN/PTclinIQ/issues"
+  },
+  "homepage": "https://github.com/DrewDN/PTclinIQ#readme",
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "pg": "^7.18.1"
+  }
+}
